@@ -10098,6 +10098,29 @@ hr.light {
   }
 }
 
+.header-carousel {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+  min-height: 40rem;
+  width: auto;
+  position: relative;
+  size: cover;
+}
+
+.header-carousel img{
+  /* padding-top: 10rem; */
+  /* padding-bottom: calc(10rem - 4.5rem); */
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/handsketch/camino800.png"); */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.08) 100%), url("../assets/img/handsketch/camino800.png"); */
+  opacity: 0.4;
+  height: 100vh;
+  width: auto;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -10112,7 +10135,10 @@ header.masthead h1 {
   font-size: 2.25rem;
 }
 .header-chevron {
-  margin-top: 35rem;
+  margin-top: 50rem;
+  margin-left: 100rem;
+  position: relative;
+  z-index: 99;
 }
 @media (min-width: 992px) {
   header.masthead {
